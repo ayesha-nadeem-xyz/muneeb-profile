@@ -3,136 +3,222 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muneeb Ashraf - Portfolio</title>
+  <title>Muneeb Ashraf | Mathematics and Technology Educator</title>
+  <meta name="description" content="Teaching portfolio of Muneeb Ashraf: mathematics educator, AI instructor, and data science mentor.">
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('muneeb-theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (error) {
+        // Ignore storage access errors.
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LN9Z6VJPNV');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LN9Z6VJPNV');
+  </script>
 </head>
 <body>
-  <button id="menu-btn" aria-expanded="false" aria-controls="mainNav">Menu</button>
-  <nav class="main-nav" id="mainNav">
-    <div class="container">
-      <a href="index.html" class="nav-logo">Muneeb Ashraf</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="jobs.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="assets/pdf/Muneeb_Ashraf_Resume.pdf" target="_blank">Resume</a></li>
-      </ul>
-    </div>
-  </nav>
+  <header class="site-header" id="site-header">
+    <div class="container nav-shell glass">
+      <a href="index.html" class="brand" aria-label="Go to homepage">
+        <span class="brand-mark">MA</span>
+        <span class="brand-text">
+          <span class="brand-name">Muneeb Ashraf</span>
+          <span class="brand-role">Educator</span>
+        </span>
+      </a>
 
-  <header class="main-header">
-    <div class="profile-card">
-      <img src="assets/images/profile.jpg" alt="Profile Picture">
-      <h1>Muneeb Ashraf</h1>
-      <p>Mathematician | Data Scientist | AI Enthusiast</p>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="education.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" type="button" data-theme-icon="sun" aria-label="Switch to light theme" title="Switch to light theme">&#9728;</button>
+        <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      </div>
     </div>
   </header>
 
-<section class="section">
-        <h2 class="section-title">Navigation</h2>
-        <div class="card-grid">
-            <a href="education.html" class="card">
-                <h3>🎓 Education</h3>
-                <p>See where I studied and what I achieved</p>
-            </a>
-            <a href="jobs.html" class="card">
-                <h3>💼 Work Experience</h3>
-                <p>Jobs, internships, and roles I’ve taken</p>
-            </a>
-            <a href="projects.html" class="card">
-                <h3>💻 Projects</h3>
-                <p>My favorite projects and experiments</p>
-            </a>
-            <a href="skills.html" class="card">
-                <h3>🛠️ Skills</h3>
-                <p>What I can do and the tools I use</p>
-            </a>
-            <a href="contact.html" class="card">
-                <h3>📬 Contact</h3>
-                <p>Get in touch with me</p>
-            </a>
-            <a href="assets/pdf/Muneeb_Ashraf_Resume.pdf" class="card" target="_blank">
-                <h3>📄 Visit My CV</h3>
-                <p>View or download my resume</p>
-            </a>
+  <main>
+    <section class="opening-scene">
+      <div class="opening-background-gradient"></div>
+      <div class="opening-grid-overlay"></div>
+      <div class="opening-canvas-container" aria-hidden="true"></div>
+      <div class="opening-hero-content">
+        <h1 class="opening-title">Muneeb Ashraf</h1>
+        <h2 class="opening-subtitle">Mathematics &amp; Technology Educator</h2>
+        <span class="opening-divider" aria-hidden="true"></span>
+        <div class="opening-kicker-wrap">
+          <p class="opening-kicker">Preparing students for the AI era through mathematics and technology</p>
         </div>
-    </section>
-
-
-  <main class="container">
-    <section class="section">
-      <h2 class="section-title">About Me</h2>
-      <div class="card">
-        <h3>My Journey</h3>
-        <p>From an early age, I was fascinated by two things: numbers and technology. Mathematics gave me the thrill of solving problems, while technology sparked my curiosity about how the world could be transformed through innovation. Over time, I discovered that the real magic happens when the two come together. This realization guided every step of my academic and professional journey.</p>
       </div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">A Path of Resilience</h2>
-      <div class="card">
-        <p>I was born on March 10, 2000, in Gujrat, Pakistan. I began my schooling at Raza School Gujrat, where I studied up to class 8. For matriculation, I joined Government Municipal Model High School for Boys, where my major subjects were Mathematics, Physics, Chemistry, and Biology. With 918 out of 1100 marks, I performed well academically. Many people encouraged me to become a doctor, but my passion for Mathematics pulled me in another direction.</p>
-        <p>I enrolled in FSc Pre-Engineering at Government Zamindar Postgraduate College, Gujrat, scoring 819 out of 1100. While most around me leaned toward Biology, I chose Mathematics. During this period, I also discovered my talent for teaching and began teaching Mathematics at Ali Science Academy. This experience planted the seed of a lifelong passion for education.</p>
-        <p>Initially, I planned to pursue engineering and was even selected for a university program. But financial constraints forced me to rethink, so I opted for a more affordable option: a BSc in Mathematics and Physics at Zamindar College. My studies were interrupted when the COVID-19 pandemic hit Pakistan, delaying my plans for higher education.</p>
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 16px;">What I offer</span>
+          <h2 class="heading-xl" style="margin-bottom: 20px;">Bridging mathematics,<br><span style="color: var(--text-secondary);">technology, and teaching.</span></h2>
+          <p class="body-lg">
+            With over six years of classroom experience and a foundation in both pure mathematics
+            and applied data science, I help students and institutions turn difficult concepts
+            into genuine understanding - from secondary school to graduate level.
+          </p>
+        </div>
+
+        <div class="grid-auto" style="margin-bottom: 56px;">
+          <article class="card" data-reveal style="--reveal-delay: 80ms; padding: 32px 28px; display: grid; gap: 14px;">
+            <span class="icon-box" aria-hidden="true">MTH</span>
+            <h3 class="heading-md">Mathematics Education</h3>
+            <p class="body-md">
+              Structured teaching from foundational arithmetic through university-level calculus,
+              statistics, and linear algebra - designed to build lasting intuition rather than
+              surface memorization.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Calculus</span>
+              <span class="tag">Statistics</span>
+              <span class="tag">Linear Algebra</span>
+              <span class="tag">Grades 5- University</span>
+            </div>
+          </article>
+
+          <article class="card" data-reveal style="--reveal-delay: 160ms; padding: 32px 28px; display: grid; gap: 14px;">
+            <span class="icon-box" aria-hidden="true">AI</span>
+            <h3 class="heading-md">AI &amp; Data Science</h3>
+            <p class="body-md">
+              Hands-on instruction and project mentorship in machine learning, deep learning,
+              and data analysis - bridging mathematical theory with real-world implementation.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Python</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+          </article>
+
+          <article class="card" data-reveal style="--reveal-delay: 240ms; padding: 32px 28px; display: grid; gap: 14px;">
+            <span class="icon-box" aria-hidden="true">R&amp;D</span>
+            <h3 class="heading-md">Research &amp; Projects</h3>
+            <p class="body-md">
+              Applied research spanning computer vision, predictive modeling, and educational
+              technology - with a teaching lens that translates academic rigor into practical
+              deliverables.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Predictive Modelling</span>
+              <span class="tag">NLP</span>
+              <span class="tag">EdTech</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="cta-row" data-reveal>
+          <div>
+            <p style="font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; font-weight: 700; font-size: 1rem; margin-bottom: 4px;">
+              Students across secondary, undergraduate &amp; postgraduate levels
+            </p>
+            <p class="meta-note">Across secondary school, undergraduate, and postgraduate levels.</p>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="education.html" class="btn-outline">Full Profile</a>
+            <a href="contact.html" class="btn-primary">Get in Touch</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="section-title">The Turning Point: MSc & Data Science</h2>
-      <div class="card">
-        <p>By the time restrictions lifted, the government had decided to phase out MSc programs and adopt the international 4-year BS system. Only a few universities still offered MSc, and among them was Government College University, Lahore (GCUL). Determined not to abandon my goal, I moved to Lahore and completed my MSc in Mathematics with a CGPA of 3.37/4.0.</p>
-        <p>The MSc years became a turning point. I not only gained strong academic knowledge but also improved my confidence, problem-solving skills, and social experience. More importantly, I came across the field of Data Science. Fascinated, I began learning Python programming through YouTube tutorials. Soon, I was exploring Machine Learning, discovering how it connected Mathematics with technology—my two lifelong passions. Throughout my degree at GCUL, I stayed socially active. I was a member of the Chawla Mathematics Society, helping organize mathematical seminars and workshops. I also joined the Blood Donor Society, volunteering in blood donation drives and awareness campaigns.</p>
-      </div>
-    </section>
+    <section class="section section-soft" style="background: var(--bg-surface);">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 14px;">Live Projects</span>
+          <h2 class="heading-xl" style="max-width: 500px;">Explore my work<br><span style="color: var(--text-secondary);">in the wild.</span></h2>
+        </div>
 
-    <section class="section">
-      <h2 class="section-title">Career & The Quest for Knowledge</h2>
-      <div class="card">
-        <p>After graduation, I had achieved my dream of becoming a teacher, but I set a new, bigger goal: to pursue a PhD. Teaching remained close to my heart, but I also wanted to explore a career in research and technology. After completing my MSc, I started teaching in a school. While teaching gave me satisfaction, I soon realized that in Pakistan it isn’t a financially rewarding profession. I could barely meet my expenses, and it was clear that supporting a family would be very difficult with teaching alone. Around this time, I had already come across the term Data Science during my MSc days, which had sparked my curiosity. That realization, combined with the financial struggles of teaching, motivated me to explore technology more seriously. I began learning Python through YouTube tutorials, taking my first steps toward a career in tech while still holding on to my passion for Mathematics and education.</p>
-        <p>Around this time, I discovered a training program in Artificial Intelligence (Machine Learning and Deep Learning) at Minhaj University, Lahore, offered by NAVTTC. This was my formal entry into programming, where I built foundations in ML and DL. Alongside, I took multiple online courses from Coursera in areas like Data Science Math Skills (Duke University), Discrete Mathematics (UC San Diego), Mathematical Thinking (Stanford), Algebra (Johns Hopkins), and more. I also worked on projects like brain tumor detection using CNN, credit card fraud detection, diabetes classification, CIFAR image classification, and building a career chatbot. These experiences helped me merge Mathematics with modern AI applications.</p>
-      </div>
-    </section>
+        <div class="grid-auto">
+          <a class="card" data-reveal style="--reveal-delay: 90ms; padding: 32px 28px; display: flex; flex-direction: column; gap: 20px;" href="https://muneeb-ashraf.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-top">
+              <span class="icon-box" aria-hidden="true">WEB</span>
+              <span class="link-card-arrow" aria-hidden="true">&#8599;</span>
+            </div>
+            <div style="display: grid; gap: 10px; flex: 1;">
+              <h3 class="heading-md" style="font-size: 1.05rem;">Tech Portfolio</h3>
+              <p class="body-md">Full personal portfolio covering background, projects, and professional highlights.</p>
+            </div>
+            <span class="link-card-cta">Visit Portfolio &#8599;</span>
+          </a>
 
-    <section class="section">
-      <h2 class="section-title">Professional Experience</h2>
-      <div class="card">
-        <p>After that, I joined InsightSol Technologies for a one-month remote internship. My role was simple but valuable: I trained two machine learning algorithms using Python. While the exposure wasn’t deep, it gave me my first taste of applying ML models in a structured setting and helped me understand the workflow of small projects.</p>
-        <p>Once the internship ended, I continued teaching at Hajveri Lyceum School, where I taught Mathematics to grades 5–9. Teaching kept me financially stable and, more importantly, allowed me to refine my communication and problem-solving skills by making complex ideas accessible to young learners.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2 class="section-title">The Road Ahead</h2>
-      <div class="card">
-        <p>Along with teaching in school, I started preparing for my dream of studying abroad. I took the IELTS, securing an overall 7.0 band score (Listening 8.0, Reading 7.5, Writing 6.5, Speaking 6.0). I applied for foreign scholarships, but due to my 2+2 degree structure (BSc + MSc instead of a 4-year BS), I faced repeated rejections. This was a disheartening phase, but it didn’t break my resolve. Instead, I decided to take a step-by-step approach: complete an MS in Pakistan first, and then reapply abroad for a PhD.</p>
-        <p>Currently, I am working in a more demanding and rewarding role at Meissasoft. This is a full-fledged internship where I not only focus on coding and projects but also gain a deeper understanding of how the industry functions. I practice Object-Oriented Programming (OOP) by building a Chess Game Engine and a Ride Sharing Simulation. I solve Data Structures and Algorithms problems on HackerRank, design SQL databases, and create a CRUD-based Student Management System using FastAPI and SQLAlchemy. Unlike my short internship at InsightSol, this experience gives me real insight into the market—how companies structure projects, manage databases, build APIs, and test applications before deployment. Here, I truly feel like a part of the tech ecosystem rather than just a learner.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2 class="section-title">Conclusion</h2>
-      <div class="card">
-        <p>Also, I’ve been admitted to the MS Data Science program at UET. This is another milestone in my pursuit of excellence. With strong foundations in Mathematics, hands-on experience in Machine Learning and Deep Learning, and a passion for both teaching and research, I’m determined to grow into a researcher who not only advances AI but also uses it to solve real-world problems. My journey hasn’t been smooth. Financial struggles, academic interruptions, and scholarship rejections have all been part of the path. But each challenge only strengthened my resilience and reinforced my purpose. Mathematics taught me logic, teaching taught me clarity, and Artificial Intelligence gave me a vision. My ultimate goal is to pursue a PhD, contribute to research in AI and Data Science, and continue teaching—sharing knowledge while creating impact through technology, along with practical use of AI for applications in software houses or as a freelancer.</p>
+          <a class="card" data-reveal style="--reveal-delay: 180ms; padding: 32px 28px; display: flex; flex-direction: column; gap: 20px;" href="https://muneeb-chatbot.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div class="link-card-top">
+              <span class="icon-box" aria-hidden="true">AI</span>
+              <span class="link-card-arrow" aria-hidden="true">&#8599;</span>
+            </div>
+            <div style="display: grid; gap: 10px; flex: 1;">
+              <h3 class="heading-md" style="font-size: 1.05rem;">AI Chatbot</h3>
+              <p class="body-md">An interactive AI assistant - a live demo of applied NLP and conversational AI.</p>
+            </div>
+            <span class="link-card-cta">Open Chatbot &#8599;</span>
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="main-footer">
-    <p>&copy; 2025 Muneeb Ashraf. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="Go to homepage">
+            <span class="brand-mark">MA</span>
+            <span class="brand-text">
+              <span class="brand-name">Muneeb Ashraf</span>
+              <span class="brand-role">Educator and AI Instructor</span>
+            </span>
+          </a>
+          <p class="meta-note" style="max-width: 36ch; margin-top: 12px;">Turning complexity into clarity in mathematics, data, and AI.</p>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Navigation</span>
+          <div class="footer-links">
+            <a class="footer-link" href="index.html"><span class="footer-icon" aria-hidden="true">&#8962;</span>Home</a>
+            <a class="footer-link" href="education.html"><span class="footer-icon" aria-hidden="true">&#9432;</span>About</a>
+            <a class="footer-link" href="projects.html"><span class="footer-icon" aria-hidden="true">&#128193;</span>Projects</a>
+            <a class="footer-link" href="skills.html"><span class="footer-icon" aria-hidden="true">&#9881;</span>Skills</a>
+            <a class="footer-link" href="contact.html"><span class="footer-icon" aria-hidden="true">&#9993;</span>Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Connect</span>
+          <div class="social-row">
+            <a class="social-btn" href="https://linkedin.com/in/muneeb-ashraf-ai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+            <a class="social-btn" href="https://github.com/alphaaa-m" target="_blank" rel="noopener noreferrer" aria-label="GitHub">gh</a>
+            <a class="social-btn" href="https://wa.me/923006275648" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">wa</a>
+            <a class="social-btn" href="mailto:muneebashraf.edu@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="footer-bottom">&copy; <span data-year></span> Muneeb Ashraf. All rights reserved.</div>
+    </div>
   </footer>
 
+  <script src="https://unpkg.com/three@0.164.1/build/three.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

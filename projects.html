@@ -3,119 +3,260 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Muneeb Ashraf</title>
+  <title>Projects | Muneeb Ashraf</title>
+  <meta name="description" content="AI and data science projects by Muneeb Ashraf, with teaching angle and key concepts for each project.">
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('muneeb-theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (error) {
+        // Ignore storage access errors.
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LN9Z6VJPNV');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LN9Z6VJPNV');
+  </script>
 </head>
 <body>
-  <button id="menu-btn" aria-expanded="false" aria-controls="mainNav">Menu</button>
-  <nav class="main-nav" id="mainNav">
-    <div class="container">
-      <a href="index.html" class="nav-logo">Muneeb Ashraf</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="jobs.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="assets/pdf/Muneeb_Ashraf_Resume.pdf" target="_blank">Resume</a></li>
-      </ul>
-    </div>
-  </nav>
+  <header class="site-header" id="site-header">
+    <div class="container nav-shell glass">
+      <a href="index.html" class="brand" aria-label="Go to homepage">
+        <span class="brand-mark">MA</span>
+        <span class="brand-text">
+          <span class="brand-name">Muneeb Ashraf</span>
+          <span class="brand-role">Educator</span>
+        </span>
+      </a>
 
-  <header class="main-header">
-    <h1>💻 Projects</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="education.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" type="button" data-theme-icon="sun" aria-label="Switch to light theme" title="Switch to light theme">&#9728;</button>
+        <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      </div>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="section">
-      <h2 class="section-title">My Work</h2>
-      <div class="card-grid">
-        <div class="card project-card">
-          <img src="assets/images/SMS_POSTER.png" alt="Student Management System">
-          <div class="project-overlay">
-            <h3>Student Management System</h3>
-            <p>A RESTful API with FastAPI for managing students, courses, and enrollments with JWT authentication.</p>
-            <a href="https://github.com/alphaaa-m/Student_Management_System" target="_blank" class="btn">View on GitHub</a>
-          </div>
+  <main class="page-container">
+    <section class="banner">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 16px;">Projects</span>
+          <h1 class="display-lg" style="margin-bottom: 16px;">AI &amp; Data Science<br><span style="color: var(--text-secondary);">Work</span></h1>
+          <p class="body-lg" style="max-width: 56ch;">
+            Real-world machine learning projects used as live teaching demonstrations - each project
+            comes with a focused classroom application.
+          </p>
         </div>
-        <div class="card project-card">
-          <img src="assets/images/Chess_Game-Cover.png" alt="Chess Game Engine">
-          <div class="project-overlay">
-            <h3>Chess Game Engine</h3>
-            <p>A command-line chess game in Python using OOP principles.</p>
-            <a href="https://github.com/alphaaa-m/Chess_Game_Engine" target="_blank" class="btn">View on GitHub</a>
-          </div>
-        </div>
-        <div class="card project-card">
-          <img src="assets/images/House_Price_Prediction_Cover.png" alt="House Price Prediction">
-          <div class="project-overlay">
-            <h3>House Price Prediction</h3>
-            <p>Comparing various regression models to predict house prices.</p>
-            <a href="https://github.com/alphaaa-m/House_Price_Prediction-Basic" target="_blank" class="btn">View on GitHub</a>
-          </div>
-        </div>
-        <div class="card project-card">
-          <img src="assets/images/Hear_Disease_Cover.png" alt="Heart Disease Prediction">
-          <div class="project-overlay">
-            <h3>Heart Disease Prediction</h3>
-            <p>Using ML to predict heart disease from clinical data.</p>
-            <a href="https://github.com/alphaaa-m/Heart_Disease_Prediction" target="_blank" class="btn">View on GitHub</a>
-          </div>
-        </div>
-        <div class="card project-card">
-          <img src="assets/images/CNN.jpg" alt="Brain Tumor Detection">
-          <div class="project-overlay">
-            <h3>Brain Tumor Detection</h3>
-            <p>A CNN model to detect brain tumors from MRI images.</p>
-            <a href="https://github.com/alphaaa-m/Brain_Tumor_Detection" target="_blank" class="btn">View on GitHub</a>
-          </div>
-        </div>
-        <div class="card project-card">
-          <img src="assets/images/CCFD.jpg" alt="Credit Card Fraud Detection">
-          <div class="project-overlay">
-            <h3>Credit Card Fraud Detection</h3>
-            <p>A Random Forest model to detect fraudulent credit card transactions.</p>
-            <a href="https://github.com/alphaaa-m/Credit_Card_Fraud_Detection" target="_blank" class="btn">View on GitHub</a>
-          </div>
-        </div>
-        <div class="card project-card">
-          <img src="assets/images/student_performance_analysis.png" alt="Student Performance Analysis">
-          <div class="project-overlay">
-            <h3>Student Performance Analysis</h3>
-            <p>Using Multiple Linear Regression to predict student performance.</p>
-            <a href="https://github.com/alphaaa-m/Student_Performance" target="_blank" class="btn">View on GitHub</a>
-          </div>
+      </div>
+    </section>
+
+    <section class="section-soft" style="padding: 0;">
+      <div class="container">
+        <div class="filter-row" data-reveal>
+          <button class="filter-btn active" data-filter="All" type="button">All</button>
+          <button class="filter-btn" data-filter="Computer Vision" type="button">Computer Vision</button>
+          <button class="filter-btn" data-filter="Regression Analysis" type="button">Regression Analysis</button>
+          <button class="filter-btn" data-filter="Backend API" type="button">Backend API</button>
+          <button class="filter-btn" data-filter="Healthcare AI" type="button">Healthcare AI</button>
+          <button class="filter-btn" data-filter="Anomaly Detection" type="button">Anomaly Detection</button>
         </div>
       </div>
     </section>
 
     <section class="section">
-        <h2 class="section-title">Other Projects</h2>
-        <div class="card">
-            <ul>
-                <li><b>Breast Cancer Diagnostic:</b> An SVM-based diagnostic classifier for early breast cancer detection.</li>
-                <li><b>Diabetes Classification:</b> A Decision Tree model for classifying diabetes based on patient data.</li>
-                <li><b>MNIST Digit Recognition:</b> An Artificial Neural Network (ANN) that accurately recognizes handwritten digits from the MNIST dataset.</li>
-                <li><b>CIFAR Image Classification:</b> A project exploring various CNN architectures for image classification on the CIFAR-10 and CIFAR-100 datasets.</li>
-                <li><b>Career ChatBot:</b> An API-integrated chatbot that provides career recommendations.</li>
-                <li><b>Ride Sharing Simulation:</b> A basic ride-sharing simulation built with Object-Oriented Programming (OOP) to model drivers, riders, and rides.</li>
-            </ul>
+      <div class="container">
+        <p class="meta-note" data-reveal style="margin-bottom: 28px;"><span data-project-count>6</span> projects - click any card to expand details.</p>
+
+        <div class="grid-auto" style="gap: 20px;">
+          <article class="project-card" data-project-category="Computer Vision" data-expandable data-reveal>
+            <div class="project-top-line"></div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="badge badge-matte">Computer Vision</span>
+                <button class="btn-ghost" type="button" data-expand-btn aria-expanded="false">Details</button>
+              </div>
+              <h2 class="heading-md" style="margin-bottom: 10px;">Brain Tumor Detection</h2>
+              <p class="body-md" style="margin-bottom: 14px;">A CNN-based deep learning model that detects brain tumors from MRI scans using TensorFlow and Keras. Achieves high accuracy through careful preprocessing and architecture design.</p>
+              <div class="tag-row" style="margin-bottom: 16px;">
+                <span class="tag">CNN</span><span class="tag">Deep Learning</span><span class="tag">TensorFlow</span><span class="tag">Medical Imaging</span>
+              </div>
+              <div class="project-details">
+                <hr class="divider" style="margin: 0 0 14px;">
+                <p class="label" style="margin-bottom: 8px;">Teaching angle</p>
+                <p class="body-md" style="margin-bottom: 12px;">A live demonstration of how CNNs learn spatial features from medical images - ideal for teaching convolutional architectures and real-world AI application.</p>
+                <p class="label" style="margin-bottom: 8px;">Key concepts</p>
+                <div class="tag-row"><span class="badge">Convolutional Layers</span><span class="badge">Transfer Learning</span><span class="badge">Binary Classification</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-category="Regression Analysis" data-expandable data-reveal style="--reveal-delay: 70ms;">
+            <div class="project-top-line"></div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="badge badge-matte">Regression Analysis</span>
+                <button class="btn-ghost" type="button" data-expand-btn aria-expanded="false">Details</button>
+              </div>
+              <h2 class="heading-md" style="margin-bottom: 10px;">House Price Prediction</h2>
+              <p class="body-md" style="margin-bottom: 14px;">Compared over 8 regression models including Linear Regression, Ridge, Lasso, Decision Trees, and Gradient Boosting to predict house prices with Python and scikit-learn.</p>
+              <div class="tag-row" style="margin-bottom: 16px;">
+                <span class="tag">Regression</span><span class="tag">Scikit-learn</span><span class="tag">Feature Engineering</span><span class="tag">Model Comparison</span>
+              </div>
+              <div class="project-details">
+                <hr class="divider" style="margin: 0 0 14px;">
+                <p class="label" style="margin-bottom: 8px;">Teaching angle</p>
+                <p class="body-md" style="margin-bottom: 12px;">A comprehensive comparison of 8+ regression algorithms - perfect as a classroom case study for understanding model evaluation, bias-variance tradeoff, and feature selection.</p>
+                <p class="label" style="margin-bottom: 8px;">Key concepts</p>
+                <div class="tag-row"><span class="badge">Bias-Variance Tradeoff</span><span class="badge">Regularization</span><span class="badge">Cross-Validation</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-category="Backend API" data-expandable data-reveal style="--reveal-delay: 140ms;">
+            <div class="project-top-line"></div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="badge badge-matte">Backend API</span>
+                <button class="btn-ghost" type="button" data-expand-btn aria-expanded="false">Details</button>
+              </div>
+              <h2 class="heading-md" style="margin-bottom: 10px;">Student Management System</h2>
+              <p class="body-md" style="margin-bottom: 14px;">A production-ready RESTful API built with FastAPI and SQLAlchemy for managing students, courses, and enrollments. Features JWT authentication and full CRUD operations.</p>
+              <div class="tag-row" style="margin-bottom: 16px;">
+                <span class="tag">FastAPI</span><span class="tag">SQLAlchemy</span><span class="tag">JWT</span><span class="tag">REST API</span>
+              </div>
+              <div class="project-details">
+                <hr class="divider" style="margin: 0 0 14px;">
+                <p class="label" style="margin-bottom: 8px;">Teaching angle</p>
+                <p class="body-md" style="margin-bottom: 12px;">A working demonstration of software architecture for students learning API design, database normalization, and authentication - real-world software engineering in practice.</p>
+                <p class="label" style="margin-bottom: 8px;">Key concepts</p>
+                <div class="tag-row"><span class="badge">REST Architecture</span><span class="badge">Database Design</span><span class="badge">API Security</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-category="Healthcare AI" data-expandable data-reveal style="--reveal-delay: 210ms;">
+            <div class="project-top-line"></div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="badge badge-matte">Healthcare AI</span>
+                <button class="btn-ghost" type="button" data-expand-btn aria-expanded="false">Details</button>
+              </div>
+              <h2 class="heading-md" style="margin-bottom: 10px;">Heart Disease &amp; Diabetes Classification</h2>
+              <p class="body-md" style="margin-bottom: 14px;">Built classification models for heart disease and diabetes prediction using logistic regression, SVM, and ensemble methods with comprehensive evaluation metrics.</p>
+              <div class="tag-row" style="margin-bottom: 16px;">
+                <span class="tag">Classification</span><span class="tag">Healthcare</span><span class="tag">SVM</span><span class="tag">Ensemble Methods</span>
+              </div>
+              <div class="project-details">
+                <hr class="divider" style="margin: 0 0 14px;">
+                <p class="label" style="margin-bottom: 8px;">Teaching angle</p>
+                <p class="body-md" style="margin-bottom: 12px;">Using real medical datasets to teach classification algorithms, precision vs recall tradeoffs, and the ethical responsibility of AI in healthcare.</p>
+                <p class="label" style="margin-bottom: 8px;">Key concepts</p>
+                <div class="tag-row"><span class="badge">Classification Metrics</span><span class="badge">Precision/Recall</span><span class="badge">Data Imbalance</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-category="Anomaly Detection" data-expandable data-reveal style="--reveal-delay: 280ms;">
+            <div class="project-top-line"></div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="badge badge-matte">Anomaly Detection</span>
+                <button class="btn-ghost" type="button" data-expand-btn aria-expanded="false">Details</button>
+              </div>
+              <h2 class="heading-md" style="margin-bottom: 10px;">Credit Card Fraud Detection</h2>
+              <p class="body-md" style="margin-bottom: 14px;">Developed an anomaly detection pipeline for identifying fraudulent transactions from highly imbalanced financial data using resampling and ensemble classifiers.</p>
+              <div class="tag-row" style="margin-bottom: 16px;">
+                <span class="tag">Anomaly Detection</span><span class="tag">SMOTE</span><span class="tag">Imbalanced Data</span><span class="tag">Finance</span>
+              </div>
+              <div class="project-details">
+                <hr class="divider" style="margin: 0 0 14px;">
+                <p class="label" style="margin-bottom: 8px;">Teaching angle</p>
+                <p class="body-md" style="margin-bottom: 12px;">Teaches students about imbalanced datasets, SMOTE, and anomaly detection - critical challenges in real-world machine learning that textbooks often skip.</p>
+                <p class="label" style="margin-bottom: 8px;">Key concepts</p>
+                <div class="tag-row"><span class="badge">Class Imbalance</span><span class="badge">SMOTE Oversampling</span><span class="badge">ROC-AUC Curve</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-category="Computer Vision" data-expandable data-reveal style="--reveal-delay: 350ms;">
+            <div class="project-top-line"></div>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="badge badge-matte">Computer Vision</span>
+                <button class="btn-ghost" type="button" data-expand-btn aria-expanded="false">Details</button>
+              </div>
+              <h2 class="heading-md" style="margin-bottom: 10px;">MNIST Digit Recognition</h2>
+              <p class="body-md" style="margin-bottom: 14px;">Implemented digit classification on the MNIST dataset using fully connected and convolutional neural networks, demonstrating the progression from simple to deep architectures.</p>
+              <div class="tag-row" style="margin-bottom: 16px;">
+                <span class="tag">Neural Networks</span><span class="tag">MNIST</span><span class="tag">TensorFlow</span><span class="tag">Computer Vision</span>
+              </div>
+              <div class="project-details">
+                <hr class="divider" style="margin: 0 0 14px;">
+                <p class="label" style="margin-bottom: 8px;">Teaching angle</p>
+                <p class="body-md" style="margin-bottom: 12px;">The classic "hello world" of deep learning - used to teach neural network fundamentals, backpropagation, and how machines learn to see.</p>
+                <p class="label" style="margin-bottom: 8px;">Key concepts</p>
+                <div class="tag-row"><span class="badge">Backpropagation</span><span class="badge">Activation Functions</span><span class="badge">Softmax Classification</span></div>
+              </div>
+            </div>
+          </article>
         </div>
+      </div>
     </section>
   </main>
 
-  <footer class="main-footer">
-    <p>&copy; 2025 Muneeb Ashraf. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="Go to homepage">
+            <span class="brand-mark">MA</span>
+            <span class="brand-text">
+              <span class="brand-name">Muneeb Ashraf</span>
+              <span class="brand-role">Educator and AI Instructor</span>
+            </span>
+          </a>
+          <p class="meta-note" style="max-width: 36ch; margin-top: 12px;">Turning complexity into clarity in mathematics, data, and AI.</p>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Navigation</span>
+          <div class="footer-links">
+            <a class="footer-link" href="index.html"><span class="footer-icon" aria-hidden="true">&#8962;</span>Home</a>
+            <a class="footer-link" href="education.html"><span class="footer-icon" aria-hidden="true">&#9432;</span>About</a>
+            <a class="footer-link" href="projects.html"><span class="footer-icon" aria-hidden="true">&#128193;</span>Projects</a>
+            <a class="footer-link" href="skills.html"><span class="footer-icon" aria-hidden="true">&#9881;</span>Skills</a>
+            <a class="footer-link" href="contact.html"><span class="footer-icon" aria-hidden="true">&#9993;</span>Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Connect</span>
+          <div class="social-row">
+            <a class="social-btn" href="https://linkedin.com/in/muneeb-ashraf-ai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+            <a class="social-btn" href="https://github.com/alphaaa-m" target="_blank" rel="noopener noreferrer" aria-label="GitHub">gh</a>
+            <a class="social-btn" href="https://wa.me/923006275648" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">wa</a>
+            <a class="social-btn" href="mailto:muneebashraf.edu@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="footer-bottom">&copy; <span data-year></span> Muneeb Ashraf. All rights reserved.</div>
+    </div>
   </footer>
 
   <script src="assets/js/script.js"></script>

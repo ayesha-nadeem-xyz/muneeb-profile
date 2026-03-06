@@ -3,117 +3,297 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Education - Muneeb Ashraf</title>
+  <title>About | Muneeb Ashraf</title>
+  <meta name="description" content="About Muneeb Ashraf: educator, mathematician, AI practitioner, with education, philosophy, and certifications.">
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('muneeb-theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (error) {
+        // Ignore storage access errors.
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LN9Z6VJPNV');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LN9Z6VJPNV');
+  </script>
 </head>
 <body>
-  <button id="menu-btn" aria-expanded="false" aria-controls="mainNav">Menu</button>
-  <nav class="main-nav" id="mainNav">
-    <div class="container">
-      <a href="index.html" class="nav-logo">Muneeb Ashraf</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="jobs.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="assets/pdf/Muneeb_Ashraf_Resume.pdf" target="_blank">Resume</a></li>
-      </ul>
-    </div>
-  </nav>
+  <header class="site-header" id="site-header">
+    <div class="container nav-shell glass">
+      <a href="index.html" class="brand" aria-label="Go to homepage">
+        <span class="brand-mark">MA</span>
+        <span class="brand-text">
+          <span class="brand-name">Muneeb Ashraf</span>
+          <span class="brand-role">Educator</span>
+        </span>
+      </a>
 
-  <header class="main-header">
-    <h1>🎓 Education and Training</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="education.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" type="button" data-theme-icon="sun" aria-label="Switch to light theme" title="Switch to light theme">&#9728;</button>
+        <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      </div>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="section">
-      <h2 class="section-title">Academic Degrees</h2>
-      <div class="card-grid">
-          <div class="card">
-          <h3>Master of Science (MS)</h3>
-          <p><strong>Institution:</strong> University of Engineering and Technology (UET), Lahore, Pakistan</p>
-          <p><strong>Duration:</strong> 2025-2027</p>
-          <p><strong>Majors:</strong> Data Science</p>
+  <main class="page-container">
+    <section class="banner">
+      <div class="container about-hero">
+        <div data-reveal>
+          <span class="label" style="margin-bottom: 16px;">About Me</span>
+          <h1 class="display-lg" style="margin-bottom: 18px;">Educator, Mathematician,<br><span style="color: var(--text-secondary);">AI Practitioner</span></h1>
+          <p class="body-lg" style="margin-bottom: 24px; max-width: 64ch;">
+            A mathematics educator and AI practitioner with over six years of teaching experience spanning
+            secondary school through university level. Grounded in pure and applied mathematics and shaped by
+            advanced study in data science and machine learning, my work combines theory with real application.
+          </p>
+          <div class="pill-row">
+            <span class="badge badge-matte">Gujrat / Lahore, Pakistan</span>
+            <a class="badge badge-matte" href="mailto:muneebashraf.edu@gmail.com">muneebashraf.edu@gmail.com</a>
+            <span class="badge badge-matte">(+92) 3006275648</span>
+          </div>
         </div>
-        <div class="card">
-          <h3>Master of Science (MSc)</h3>
-          <p><strong>Institution:</strong> Government College University (GCU), Lahore, Pakistan</p>
-          <p><strong>Duration:</strong> 2020-2023</p>
-          <p><strong>Major:</strong> Mathematics</p>
-          <p><strong>CGPA:</strong> 3.37/4.00</p>
+
+        <div class="portrait-frame" data-reveal style="--reveal-delay: 120ms;">
+          <img src="assets/images/profile.png" alt="Muneeb Ashraf profile portrait" style="width: 100%; height: auto;">
         </div>
-        <div class="card">
-          <h3>Bachelor of Science (BSc)</h3>
-          <p><strong>Institution:</strong> Government Zamindar Postgraduate College, Gujrat, Pakistan</p>
-          <p><strong>Duration:</strong> 2018-2020</p>
-          <p><strong>Majors:</strong> Mathematics and Physics</p>
-          <p><strong>Final Marks:</strong> 597/800</p>
-          <p><strong>Percentage:</strong> 74.63%</p>
-          <p><strong>Affiliation:</strong> University of Gujrat (UOG)</p>
-        </div>
-        
-        <div class="card">
-          <h3>FSc - Pre Engineering</h3>
-          <p><strong>Institution:</strong> Government Zamindar Postgraduate College, Gujrat, Pakistan</p>
-          <p><strong>Duration:</strong> 2016-2018</p>
-          <p><strong>Majors:</strong> Mathematics, Physics, Chemistry</p>
-          <p><strong>Final Marks:</strong> 891/1100</p>
-          <p><strong>Percentage:</strong> 81%</p>
-          <p><strong>Board:</strong> BISE Gujranwala</p>
-        </div>
-        <div class="card">
-          <h3>Matriculation</h3>
-          <p><strong>Institution:</strong> Government Municipal Model High School for Boys, Gujrat, Pakistan</p>
-          <p><strong>Duration:</strong> 2014-2016</p>
-          <p><strong>Majors:</strong> Science</p>
-          <p><strong>Final Marks:</strong> 918/1100</p>
-          <p><strong>Percentage:</strong> 83.4%</p>
-          <p><strong>Board:</strong> BISE Gujranwala</p>
       </div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">Courses & Specializations</h2>
-      <div class="card-grid">
-      <div class="card">
-        <h3>NAVTTC</h3>
-        <p><strong>Course Title:</strong> Artificial Intelligence (Machine Learning & Deep Learning)</p>
-        <p><strong>Institute:</strong> Minhaj University, Lahore, Punjab, Pakistan</p>
-        <p><strong>Provider:</strong> National Vocational and Technical Training Commission, Government of Pakistan</p>
-        <p><strong>Duration:</strong> Jun 2023 – Dec 2023</p>
+      <div class="container grid-2" style="align-items: start; gap: 40px;">
+        <article data-reveal>
+          <span class="label" style="margin-bottom: 12px;">Teaching Philosophy</span>
+          <h2 class="heading-lg" style="margin-bottom: 18px;">How I teach</h2>
+          <p class="body-md">
+            Teaching, for me, is not about transferring information - it is about building intuition. I believe
+            every complex concept has a simple core waiting to be uncovered. My approach centers on starting
+            with the "why", building mental models, and then grounding those models in concrete examples.
+            Whether it is calculus, statistics, or machine learning - my goal is always the same: make the
+            student feel that they understand, not just that they memorized.
+          </p>
+        </article>
+
+        <article data-reveal style="--reveal-delay: 120ms;">
+          <span class="label" style="margin-bottom: 12px;">Education</span>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-node" aria-hidden="true"></span>
+              <span class="status-pill">Current</span>
+              <h3 class="heading-md" style="font-size: 0.96rem; margin-bottom: 4px;">MS Data Science</h3>
+              <p class="body-md" style="font-size: 0.85rem; margin-bottom: 4px;">University of Engineering and Technology (UET)</p>
+              <p class="tiny-meta" style="margin-bottom: 8px;">2025 - 2027</p>
+              <p class="body-md" style="font-size: 0.84rem;">Advanced studies in data science, machine learning, and statistical modeling.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-node" aria-hidden="true"></span>
+              <h3 class="heading-md" style="font-size: 0.96rem; margin-bottom: 4px;">MSc Mathematics</h3>
+              <p class="body-md" style="font-size: 0.85rem; margin-bottom: 4px;">Government College University (GCU)</p>
+              <p class="tiny-meta" style="margin-bottom: 8px;">2020 - 2023</p>
+              <p class="body-md" style="font-size: 0.84rem;">CGPA 3.37 / 4.00 - Deep study of pure and applied mathematics including analysis, algebra, and statistics.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-node" aria-hidden="true"></span>
+              <h3 class="heading-md" style="font-size: 0.96rem; margin-bottom: 4px;">BSc Mathematics &amp; Physics</h3>
+              <p class="body-md" style="font-size: 0.85rem; margin-bottom: 4px;">Government Zamindar Postgraduate College</p>
+              <p class="tiny-meta" style="margin-bottom: 8px;">2018 - 2020</p>
+              <p class="body-md" style="font-size: 0.84rem;">74.63% - Strong foundation in classical mathematics and physics.</p>
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="card">
-        <h3>Coursera</h3>
-        <ul>
-          <p><strong>Data Science Math Skills</strong> - Duke University</p>
-          <p><strong>Introduction to Discrete Mathematics for Computer Science</strong> - UC San Diego</p>
-          <p><strong>Understanding Research Methods</strong> - University of London</p>
-          <p><strong>Introduction to Mathematical Thinking</strong> - Stanford University</p>
-          <p><strong>Algebra: Elementary to Advanced</strong> - Johns Hopkins University</p>
-          <p><strong>Expressway to Data Science: Essential Math</strong> - University of Colorado Boulder</p>
-        </ul>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 14px;">Teaching Experience</span>
+          <h2 class="heading-xl">Classroom history</h2>
+        </div>
+
+        <div class="grid-auto">
+          <article class="card experience-card" data-reveal>
+            <div class="experience-head">
+              <div>
+                <h2 class="heading-md" style="margin-bottom: 4px;">Mathematics Teacher</h2>
+                <p class="body-md" style="font-size: 0.87rem;">Hajveri Lyceum School</p>
+                <p class="tiny-meta" style="margin-top: 4px;">Lahore, Pakistan</p>
+              </div>
+              <div style="text-align: right;">
+                <span class="badge badge-matte">Aug 2023 - May 2025</span>
+                <p class="tiny-meta" style="margin-top: 4px;">Grades 5 - 9</p>
+              </div>
+            </div>
+
+            <hr class="divider" style="margin: 0 0 14px;">
+            <p class="body-md" style="margin-bottom: 14px;">
+              Taught Mathematics to students from grades 5 through 9, designing lesson plans that made abstract concepts tangible.
+              Developed strong communication skills by adapting explanations to diverse learning styles, building student confidence
+              in problem-solving.
+            </p>
+            <ul class="experience-list">
+              <li>Designed structured lesson plans for multi-grade teaching</li>
+              <li>Improved student pass rates through targeted problem-solving sessions</li>
+              <li>Mentored students struggling with foundational math concepts</li>
+              <li>Refined pedagogy to accommodate different learning speeds</li>
+            </ul>
+          </article>
+
+          <article class="card experience-card" data-reveal style="--reveal-delay: 120ms;">
+            <div class="experience-head">
+              <div>
+                <h2 class="heading-md" style="margin-bottom: 4px;">Mathematics Teacher</h2>
+                <p class="body-md" style="font-size: 0.87rem;">Ali Science Academy</p>
+                <p class="tiny-meta" style="margin-top: 4px;">Gujrat, Pakistan</p>
+              </div>
+              <div style="text-align: right;">
+                <span class="badge badge-matte">Jun 2018 - Mar 2020</span>
+                <p class="tiny-meta" style="margin-top: 4px;">Intermediate level</p>
+              </div>
+            </div>
+
+            <hr class="divider" style="margin: 0 0 14px;">
+            <p class="body-md" style="margin-bottom: 14px;">
+              Began teaching Mathematics during my own FSc studies after discovering an innate ability to explain concepts clearly
+              and effectively. This role planted the seed for a lifelong passion for education.
+            </p>
+            <ul class="experience-list">
+              <li>Taught alongside completing personal FSc studies</li>
+              <li>Focused on exam preparation and concept clarity</li>
+              <li>Built early career foundation in classroom management</li>
+              <li>Developed a passion for making complex ideas accessible</li>
+            </ul>
+          </article>
+        </div>
       </div>
-      <div class="card">
-        <h3>IELTS</h3>
-        <p><strong>Overall Band:</strong> 7.0 (CEFR Level C1)</p>
-        <p><strong>Band Scores:</strong> Listening 8.0, Writing 6.5, Speaking 6.0, Reading 7.5</p>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 14px;">Certifications</span>
+          <h2 class="heading-xl">Credentials</h2>
+        </div>
+
+        <div class="grid-auto">
+          <article class="cert-card" data-reveal style="--reveal-delay: 70ms;">
+            <p class="cert-issuer">IELTS</p>
+            <h3 class="heading-md" style="font-size: 0.92rem; margin-bottom: 6px;">Overall Band 7.0 (CEFR C1)</h3>
+            <p class="body-md" style="font-size: 0.82rem;">Listening 8.0, Reading 7.5, Writing 6.5, Speaking 6.0</p>
+          </article>
+
+          <article class="cert-card" data-reveal style="--reveal-delay: 120ms;">
+            <p class="cert-issuer">NAVTTC / Minhaj University</p>
+            <h3 class="heading-md" style="font-size: 0.92rem; margin-bottom: 6px;">Artificial Intelligence - ML &amp; DL</h3>
+            <p class="body-md" style="font-size: 0.82rem;">Jun 2023 - Dec 2023</p>
+          </article>
+
+          <article class="cert-card" data-reveal style="--reveal-delay: 170ms;">
+            <p class="cert-issuer">Coursera - Duke University</p>
+            <h3 class="heading-md" style="font-size: 0.92rem;">Data Science Math Skills</h3>
+          </article>
+
+          <article class="cert-card" data-reveal style="--reveal-delay: 220ms;">
+            <p class="cert-issuer">Coursera - Stanford University</p>
+            <h3 class="heading-md" style="font-size: 0.92rem;">Introduction to Mathematical Thinking</h3>
+          </article>
+
+          <article class="cert-card" data-reveal style="--reveal-delay: 270ms;">
+            <p class="cert-issuer">Coursera - Johns Hopkins University</p>
+            <h3 class="heading-md" style="font-size: 0.92rem;">Algebra: Elementary to Advanced</h3>
+          </article>
+
+          <article class="cert-card" data-reveal style="--reveal-delay: 320ms;">
+            <p class="cert-issuer">Coursera - UC San Diego</p>
+            <h3 class="heading-md" style="font-size: 0.92rem;">Intro to Discrete Mathematics for CS</h3>
+          </article>
+
+          <article class="cert-card" data-reveal style="--reveal-delay: 370ms;">
+            <p class="cert-issuer">Coursera - Colorado Boulder</p>
+            <h3 class="heading-md" style="font-size: 0.92rem;">Expressway to Data Science: Essential Math</h3>
+          </article>
+
+          <article class="cert-card" data-reveal style="--reveal-delay: 420ms;">
+            <p class="cert-issuer">Coursera - University of London</p>
+            <h3 class="heading-md" style="font-size: 0.92rem;">Understanding Research Methods</h3>
+          </article>
+        </div>
+
+        <div class="cta-row" data-reveal style="margin-top: 48px;">
+          <div>
+            <p style="font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; font-weight: 700; font-size: 1rem; margin-bottom: 4px;">
+              Ready to collaborate?
+            </p>
+            <p class="meta-note">Let me know how I can help with your learning goals.</p>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="contact.html" class="btn-primary">Get in Touch</a>
+            <a href="projects.html" class="btn-outline">View Projects</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="main-footer">
-    <p>&copy; 2025 Muneeb Ashraf. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="Go to homepage">
+            <span class="brand-mark">MA</span>
+            <span class="brand-text">
+              <span class="brand-name">Muneeb Ashraf</span>
+              <span class="brand-role">Educator and AI Instructor</span>
+            </span>
+          </a>
+          <p class="meta-note" style="max-width: 36ch; margin-top: 12px;">Turning complexity into clarity in mathematics, data, and AI.</p>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Navigation</span>
+          <div class="footer-links">
+            <a class="footer-link" href="index.html"><span class="footer-icon" aria-hidden="true">&#8962;</span>Home</a>
+            <a class="footer-link" href="education.html"><span class="footer-icon" aria-hidden="true">&#9432;</span>About</a>
+            <a class="footer-link" href="projects.html"><span class="footer-icon" aria-hidden="true">&#128193;</span>Projects</a>
+            <a class="footer-link" href="skills.html"><span class="footer-icon" aria-hidden="true">&#9881;</span>Skills</a>
+            <a class="footer-link" href="contact.html"><span class="footer-icon" aria-hidden="true">&#9993;</span>Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Connect</span>
+          <div class="social-row">
+            <a class="social-btn" href="https://linkedin.com/in/muneeb-ashraf-ai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+            <a class="social-btn" href="https://github.com/alphaaa-m" target="_blank" rel="noopener noreferrer" aria-label="GitHub">gh</a>
+            <a class="social-btn" href="https://wa.me/923006275648" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">wa</a>
+            <a class="social-btn" href="mailto:muneebashraf.edu@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="footer-bottom">&copy; <span data-year></span> Muneeb Ashraf. All rights reserved.</div>
+    </div>
   </footer>
 
   <script src="assets/js/script.js"></script>

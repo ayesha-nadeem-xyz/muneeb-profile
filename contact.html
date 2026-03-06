@@ -3,73 +3,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muneeb Ashraf - Contact</title>
+  <title>Contact | Muneeb Ashraf</title>
+  <meta name="description" content="Contact Muneeb Ashraf for tutoring, collaboration, or academic consultation.">
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('muneeb-theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (error) {
+        // Ignore storage access errors.
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LN9Z6VJPNV');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LN9Z6VJPNV');
+  </script>
 </head>
 <body>
-  <button id="menu-btn" aria-expanded="false" aria-controls="mainNav">Menu</button>
-  <nav class="main-nav" id="mainNav">
-    <div class="container">
-      <a href="index.html" class="nav-logo">Muneeb Ashraf</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="jobs.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="assets/pdf/Muneeb_Ashraf_Resume.pdf" target="_blank">Resume</a></li>
-      </ul>
-    </div>
-  </nav>
+  <header class="site-header" id="site-header">
+    <div class="container nav-shell glass">
+      <a href="index.html" class="brand" aria-label="Go to homepage">
+        <span class="brand-mark">MA</span>
+        <span class="brand-text">
+          <span class="brand-name">Muneeb Ashraf</span>
+          <span class="brand-role">Educator</span>
+        </span>
+      </a>
 
-  <header class="main-header">
-    <h1>📬 Contact Information</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="education.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" type="button" data-theme-icon="sun" aria-label="Switch to light theme" title="Switch to light theme">&#9728;</button>
+        <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      </div>
+    </div>
   </header>
 
-  
-  <main class="container">
-    <section class="section">
-      <div class="card">
-        <h2>From Logic to Innovation: Let's Collaborate</h2>
-        <p>My passion lies at the intersection of mathematics, teaching, and technology. Whether you have a challenging problem to solve, an idea for a project, or a curiosity about my work, I'm always open to a conversation. Connect with me through any of the channels below and let's explore how we can create something impactful together.</p>
+  <main class="page-container">
+    <section class="banner">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 16px;">Contact</span>
+          <h1 class="display-lg" style="margin-bottom: 16px;">Let's work<br><span style="color: var(--text-secondary);">together</span></h1>
+          <p class="body-lg" style="max-width: 54ch;">
+            Whether you have a tutoring request, collaboration idea, or just want to connect -
+            I would love to hear from you.
+          </p>
+        </div>
       </div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">Get in Touch</h2>
-      <div class="card-grid">
-        <a href="mailto:muneebashraf.edu@gmail.com" class="card">
-          <h3>Email</h3>
-          <p>muneebashraf.edu@gmail.com</p>
-        </a>
-        <a href="tel:+923006275648" class="card">
-          <h3>Phone</h3>
-          <p>(+92) 3006275648</p>
-        </a>
-        <a href="https://linkedin.com/in/muneeb-ashraf-ai" target="_blank" class="card">
-          <h3>LinkedIn</h3>
-          <p>linkedin.com/in/muneeb-ashraf-ai</p>
-        </a>
-        <a href="https://github.com/alphaaa-m" target="_blank" class="card">
-          <h3>GitHub</h3>
-          <p>github.com/alphaaa-m</p>
+      <div class="container" style="max-width: 720px;">
+        <div class="section-header" data-reveal style="margin-bottom: 28px;">
+          <h2 class="heading-md">Contact info</h2>
+        </div>
+
+        <div class="contact-stack" style="margin-bottom: 30px;">
+          <article class="contact-item" data-reveal>
+            <span class="contact-icon">EM</span>
+            <div>
+              <p class="label" style="margin-bottom: 3px;">Email</p>
+              <a href="mailto:muneebashraf.edu@gmail.com" style="font-size: 0.9rem; font-weight: 500;">muneebashraf.edu@gmail.com</a>
+            </div>
+          </article>
+
+          <article class="contact-item" data-reveal style="--reveal-delay: 80ms;">
+            <span class="contact-icon">PH</span>
+            <div>
+              <p class="label" style="margin-bottom: 3px;">Phone</p>
+              <a href="tel:+923006275648" style="font-size: 0.9rem; font-weight: 500;">(+92) 3006275648</a>
+            </div>
+          </article>
+
+          <article class="contact-item" data-reveal style="--reveal-delay: 160ms;">
+            <span class="contact-icon">LC</span>
+            <div>
+              <p class="label" style="margin-bottom: 3px;">Location</p>
+              <p style="font-size: 0.9rem; font-weight: 500;">Gujrat / Lahore, Pakistan</p>
+            </div>
+          </article>
+
+          <article class="contact-item" data-reveal style="--reveal-delay: 240ms;">
+            <span class="contact-icon">IN</span>
+            <div>
+              <p class="label" style="margin-bottom: 3px;">LinkedIn</p>
+              <a href="https://linkedin.com/in/muneeb-ashraf-ai" target="_blank" rel="noopener noreferrer" style="font-size: 0.9rem; font-weight: 500;">muneeb-ashraf-ai</a>
+            </div>
+          </article>
+
+          <article class="contact-item" data-reveal style="--reveal-delay: 320ms;">
+            <span class="contact-icon">GH</span>
+            <div>
+              <p class="label" style="margin-bottom: 3px;">GitHub</p>
+              <a href="https://github.com/alphaaa-m" target="_blank" rel="noopener noreferrer" style="font-size: 0.9rem; font-weight: 500;">alphaaa-m</a>
+            </div>
+          </article>
+        </div>
+
+        <article class="card" data-reveal style="padding: 24px; background: var(--bg-elevated);">
+          <p class="label" style="margin-bottom: 10px;">Availability</p>
+          <p class="body-md">
+            Currently open to online tutoring, academic consulting, and AI/ML project collaboration.
+            Response time is typically within 24 hours.
+          </p>
+        </article>
+
+        <a
+          class="btn-primary"
+          data-reveal
+          href="assets/pdf/CV_Muneeb_Ashraf.pdf"
+          download
+          style="width: 100%; margin-top: 18px; justify-content: center; text-decoration: none;"
+        >
+          Download Full CV / Resume
         </a>
       </div>
     </section>
   </main>
 
-  <footer class="main-footer">
-    <p>&copy; 2025 Muneeb Ashraf. All rights reserved.</p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="Go to homepage">
+            <span class="brand-mark">MA</span>
+            <span class="brand-text">
+              <span class="brand-name">Muneeb Ashraf</span>
+              <span class="brand-role">Educator and AI Instructor</span>
+            </span>
+          </a>
+          <p class="meta-note" style="max-width: 36ch; margin-top: 12px;">Turning complexity into clarity in mathematics, data, and AI.</p>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Navigation</span>
+          <div class="footer-links">
+            <a class="footer-link" href="index.html"><span class="footer-icon" aria-hidden="true">&#8962;</span>Home</a>
+            <a class="footer-link" href="education.html"><span class="footer-icon" aria-hidden="true">&#9432;</span>About</a>
+            <a class="footer-link" href="projects.html"><span class="footer-icon" aria-hidden="true">&#128193;</span>Projects</a>
+            <a class="footer-link" href="skills.html"><span class="footer-icon" aria-hidden="true">&#9881;</span>Skills</a>
+            <a class="footer-link" href="contact.html"><span class="footer-icon" aria-hidden="true">&#9993;</span>Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Connect</span>
+          <div class="social-row">
+            <a class="social-btn" href="https://linkedin.com/in/muneeb-ashraf-ai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+            <a class="social-btn" href="https://github.com/alphaaa-m" target="_blank" rel="noopener noreferrer" aria-label="GitHub">gh</a>
+            <a class="social-btn" href="https://wa.me/923006275648" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">wa</a>
+            <a class="social-btn" href="mailto:muneebashraf.edu@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="footer-bottom">&copy; <span data-year></span> Muneeb Ashraf. All rights reserved.</div>
+    </div>
   </footer>
 
   <script src="assets/js/script.js"></script>

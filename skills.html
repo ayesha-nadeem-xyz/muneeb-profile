@@ -3,121 +3,259 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muneeb Ashraf - Skills</title>
+  <title>Skills and Expertise | Muneeb Ashraf</title>
+  <meta name="description" content="Teaching and technical skills of Muneeb Ashraf, including mathematics and AI subjects taught.">
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('muneeb-theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (error) {
+        // Ignore storage access errors.
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LN9Z6VJPNV');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN9Z6VJPNV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LN9Z6VJPNV');
+  </script>
 </head>
 <body>
-  <button id="menu-btn" aria-expanded="false" aria-controls="mainNav">Menu</button>
-  <nav class="main-nav" id="mainNav">
-    <div class="container">
-      <a href="index.html" class="nav-logo">Muneeb Ashraf</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="jobs.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="assets/pdf/Muneeb_Ashraf_Resume.pdf" target="_blank">Resume</a></li>
-      </ul>
-    </div>
-  </nav>
+  <header class="site-header" id="site-header">
+    <div class="container nav-shell glass">
+      <a href="index.html" class="brand" aria-label="Go to homepage">
+        <span class="brand-mark">MA</span>
+        <span class="brand-text">
+          <span class="brand-name">Muneeb Ashraf</span>
+          <span class="brand-role">Educator</span>
+        </span>
+      </a>
 
-  <header class="main-header">
-    <h1>🛠️ Skills</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="education.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" type="button" data-theme-icon="sun" aria-label="Switch to light theme" title="Switch to light theme">&#9728;</button>
+        <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      </div>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="section">
-      <div class="card">
-        <h2>My Skills: The Toolkit of a Problem-Solver</h2>
-        <p>My journey from a mathematician to an AI enthusiast has equipped me with a diverse set of skills. While my technical abilities allow me to build and analyze, my soft skills—honed through years of teaching and leadership—are what truly help me collaborate and innovate. This is my professional toolkit, refined by both academic rigor and real-world application.</p>
-      </div>
-    </section>
-    
-    <section class="section">
-      <h2 class="section-title">Technical Skills</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Programming & Libraries</h3>
-          <div class="skills-container">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">NumPy</span>
-            <span class="skill-tag">Pandas</span>
-            <span class="skill-tag">Matplotlib</span>
-            <span class="skill-tag">Seaborn</span>
-            <span class="skill-tag">Scikit-learn</span>
-            <span class="skill-tag">SQL</span>
-            <span class="skill-tag">FastAPI</span>
-            <span class="skill-tag">SQLAlchemy</span>
-            <span class="skill-tag">TensorFlow/Keras</span>
-          </div>
-        </div>
-        <div class="card">
-          <h3>ML & Concepts</h3>
-          <div class="skills-container">
-            <span class="skill-tag">Machine Learning</span>
-            <span class="skill-tag">Deep Learning</span>
-            <span class="skill-tag">OOP</span>
-            <span class="skill-tag">Data Structures</span>
-            <span class="skill-tag">Algorithms</span>
-          </div>
-        </div>
-        <div class="card">
-          <h3>Tools & Platforms</h3>
-          <div class="skills-container">
-            <span class="skill-tag">Jupyter Notebook</span>
-            <span class="skill-tag">Microsoft Office</span>
-            <span class="skill-tag">LaTeX</span>
-            <span class="skill-tag">Canva</span>
-            <span class="skill-tag">Git & GitHub</span>
-          </div>
+  <main class="page-container">
+    <section class="banner">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 16px;">Skills &amp; Expertise</span>
+          <h1 class="display-lg" style="margin-bottom: 16px;">What I teach<br><span style="color: var(--text-secondary);">and how well</span></h1>
+          <p class="body-lg" style="max-width: 56ch;">
+            A blend of pure mathematics, applied data science, and technology education - developed over
+            six years of classroom and mentorship experience.
+          </p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">Soft Skills</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Interpersonal</h3>
-          <div class="skills-container">
-            <span class="skill-tag">Communication</span>
-            <span class="skill-tag">Emotional Intelligence</span>
+      <div class="container skills-columns">
+        <article data-reveal>
+          <span class="label" style="margin-bottom: 12px;">Teaching skills</span>
+          <h2 class="heading-lg" style="margin-bottom: 26px;">Pedagogical</h2>
+
+          <div class="skill-row">
+            <div class="skill-head"><span>Curriculum Design</span><span class="tiny-meta">95%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="95"></div></div>
           </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Concept Simplification</span><span class="tiny-meta">98%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="98"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Student Mentorship</span><span class="tiny-meta">92%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="92"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Problem-Based Learning</span><span class="tiny-meta">90%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="90"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Lesson Planning</span><span class="tiny-meta">93%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="93"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Academic Communication</span><span class="tiny-meta">91%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="91"></div></div>
+          </div>
+        </article>
+
+        <article data-reveal style="--reveal-delay: 120ms;">
+          <span class="label" style="margin-bottom: 12px;">Technical skills</span>
+          <h2 class="heading-lg" style="margin-bottom: 26px;">Technical</h2>
+
+          <div class="skill-row">
+            <div class="skill-head"><span>Python</span><span class="tiny-meta">90%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="90"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Machine Learning</span><span class="tiny-meta">85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="85"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Deep Learning / CNNs</span><span class="tiny-meta">80%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="80"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Statistics &amp; Probability</span><span class="tiny-meta">92%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="92"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Data Analysis (Pandas/NumPy)</span><span class="tiny-meta">88%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="88"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>LaTeX &amp; Academic Writing</span><span class="tiny-meta">82%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="82"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>FastAPI / Backend Dev</span><span class="tiny-meta">78%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="78"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>SQL &amp; Databases</span><span class="tiny-meta">80%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="80"></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 14px;">Soft skills</span>
+          <h2 class="heading-xl">Personal strengths</h2>
         </div>
-        <div class="card">
-          <h3>Professional Attributes</h3>
-          <div class="skills-container">
-            <span class="skill-tag">Time Management</span>
-            <span class="skill-tag">Adaptability</span>
-            <span class="skill-tag">Resilience</span>
-            <span class="skill-tag">Creativity</span>
-            <span class="skill-tag">Leadership</span>
-          </div>
+
+        <div class="chip-row" data-reveal style="--reveal-delay: 90ms;">
+          <span class="soft-chip">Communication</span>
+          <span class="soft-chip">Emotional Intelligence</span>
+          <span class="soft-chip">Adaptability</span>
+          <span class="soft-chip">Leadership</span>
+          <span class="soft-chip">Time Management</span>
+          <span class="soft-chip">Resilience</span>
+          <span class="soft-chip">Creativity</span>
         </div>
-        <div class="card">
-          <h3>Languages</h3>
-          <div class="skills-container">
-            <span class="skill-tag">Urdu (Fluent)</span>
-            <span class="skill-tag">English (Proficient)</span>
-          </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="label" style="margin-bottom: 14px;">Subjects</span>
+          <h2 class="heading-xl">What I teach</h2>
+        </div>
+
+        <p class="label" style="margin-bottom: 18px;" data-reveal>Mathematics</p>
+        <div class="grid-auto" style="margin-bottom: 44px;">
+          <article class="card subject-card" data-reveal>
+            <div class="subject-head"><h3 class="heading-md">Algebra</h3><span class="badge badge-matte">Beginner -&gt; Advanced</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">From elementary equations to abstract algebraic structures - building logic and symbolic reasoning.</p>
+            <div class="tag-row"><span class="tag">Linear Equations</span><span class="tag">Polynomials</span><span class="tag">Abstract Algebra</span><span class="tag">Group Theory</span></div>
+          </article>
+          <article class="card subject-card" data-reveal style="--reveal-delay: 80ms;">
+            <div class="subject-head"><h3 class="heading-md">Calculus</h3><span class="badge badge-matte">Intermediate -&gt; Graduate</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">Limits, derivatives, and integration taught with geometric intuition before formal notation.</p>
+            <div class="tag-row"><span class="tag">Limits &amp; Continuity</span><span class="tag">Differentiation</span><span class="tag">Integration</span><span class="tag">Multivariable Calculus</span></div>
+          </article>
+          <article class="card subject-card" data-reveal style="--reveal-delay: 160ms;">
+            <div class="subject-head"><h3 class="heading-md">Linear Algebra</h3><span class="badge badge-matte">Intermediate -&gt; Advanced</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">Vectors, matrices, and transformations - the backbone of machine learning and computer graphics.</p>
+            <div class="tag-row"><span class="tag">Vectors &amp; Matrices</span><span class="tag">Eigenvalues / Eigenvectors</span><span class="tag">Vector Spaces</span><span class="tag">Linear Transformations</span></div>
+          </article>
+          <article class="card subject-card" data-reveal style="--reveal-delay: 240ms;">
+            <div class="subject-head"><h3 class="heading-md">Statistics &amp; Probability</h3><span class="badge badge-matte">Beginner -&gt; Advanced</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">Making sense of data through probability theory, distributions, and inferential methods.</p>
+            <div class="tag-row"><span class="tag">Descriptive Statistics</span><span class="tag">Probability Distributions</span><span class="tag">Hypothesis Testing</span><span class="tag">Bayesian Methods</span></div>
+          </article>
+        </div>
+
+        <p class="label" style="margin-bottom: 18px;" data-reveal>Technology &amp; AI</p>
+        <div class="grid-auto">
+          <article class="card subject-card" data-reveal>
+            <div class="subject-head"><h3 class="heading-md">Python for Data Science</h3><span class="badge badge-matte">Beginner -&gt; Intermediate</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">Python from fundamentals to data manipulation and visualization using NumPy, Pandas, and Matplotlib.</p>
+            <div class="tag-row"><span class="tag">Python Basics</span><span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">EDA</span></div>
+          </article>
+          <article class="card subject-card" data-reveal style="--reveal-delay: 80ms;">
+            <div class="subject-head"><h3 class="heading-md">Machine Learning</h3><span class="badge badge-matte">Intermediate -&gt; Advanced</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">Supervised and unsupervised algorithms explained mathematically and implemented with scikit-learn.</p>
+            <div class="tag-row"><span class="tag">Regression &amp; Classification</span><span class="tag">Model Evaluation</span><span class="tag">Scikit-learn</span><span class="tag">Feature Engineering</span></div>
+          </article>
+          <article class="card subject-card" data-reveal style="--reveal-delay: 160ms;">
+            <div class="subject-head"><h3 class="heading-md">Deep Learning</h3><span class="badge badge-matte">Advanced</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">Neural networks, CNNs, and training principles - demystifying the "black box" of modern AI.</p>
+            <div class="tag-row"><span class="tag">Neural Networks</span><span class="tag">CNNs</span><span class="tag">TensorFlow / Keras</span><span class="tag">Transfer Learning</span></div>
+          </article>
+          <article class="card subject-card" data-reveal style="--reveal-delay: 240ms;">
+            <div class="subject-head"><h3 class="heading-md">AI Fundamentals</h3><span class="badge badge-matte">Beginner -&gt; Intermediate</span></div>
+            <p class="body-md" style="margin-bottom: 14px;">Conceptual understanding of how AI systems think, learn, and make decisions.</p>
+            <div class="tag-row"><span class="tag">AI vs ML vs DL</span><span class="tag">Data Pipelines</span><span class="tag">Model Deployment Basics</span><span class="tag">AI Ethics</span></div>
+          </article>
         </div>
       </div>
     </section>
   </main>
-  
-  <footer class="main-footer">
-    <p>&copy; 2025 Muneeb Ashraf. All rights reserved.</p>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="Go to homepage">
+            <span class="brand-mark">MA</span>
+            <span class="brand-text">
+              <span class="brand-name">Muneeb Ashraf</span>
+              <span class="brand-role">Educator and AI Instructor</span>
+            </span>
+          </a>
+          <p class="meta-note" style="max-width: 36ch; margin-top: 12px;">Turning complexity into clarity in mathematics, data, and AI.</p>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Navigation</span>
+          <div class="footer-links">
+            <a class="footer-link" href="index.html"><span class="footer-icon" aria-hidden="true">&#8962;</span>Home</a>
+            <a class="footer-link" href="education.html"><span class="footer-icon" aria-hidden="true">&#9432;</span>About</a>
+            <a class="footer-link" href="projects.html"><span class="footer-icon" aria-hidden="true">&#128193;</span>Projects</a>
+            <a class="footer-link" href="skills.html"><span class="footer-icon" aria-hidden="true">&#9881;</span>Skills</a>
+            <a class="footer-link" href="contact.html"><span class="footer-icon" aria-hidden="true">&#9993;</span>Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="label" style="margin-bottom: 12px;">Connect</span>
+          <div class="social-row">
+            <a class="social-btn" href="https://linkedin.com/in/muneeb-ashraf-ai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+            <a class="social-btn" href="https://github.com/alphaaa-m" target="_blank" rel="noopener noreferrer" aria-label="GitHub">gh</a>
+            <a class="social-btn" href="https://wa.me/923006275648" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">wa</a>
+            <a class="social-btn" href="mailto:muneebashraf.edu@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="footer-bottom">&copy; <span data-year></span> Muneeb Ashraf. All rights reserved.</div>
+    </div>
   </footer>
 
   <script src="assets/js/script.js"></script>
